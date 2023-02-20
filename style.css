@@ -1,0 +1,62 @@
+body{
+    background-image: url("bgper.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom;
+    display: grid;
+}
+.container{
+    background-color: rgba(160, 228, 240, 0.585);
+    max-width: 400px;
+    margin: 0 auto;
+    display: grid;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 10px;
+}
+h1{
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 1%;
+    font-weight: bolder;
+    font-size: 50px;
+}
+h2{
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 6000;
+    font-size: 45px;
+}
+button{
+    color: white;
+    font-weight: 100;
+    font-family: fantasy;
+    padding: 10 10;
+    font-size: 40px;
+    width: 200px;
+    margin: 0 auto;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+#increment-btn{
+    background-color: darkred;
+}
+#increment-btn:hover{
+    background-color: rgb(28, 9, 9);
+    transition: .3s;
+}
+#save-btn{
+    background-color: darkblue;
+}
+#save-btn:hover{
+    background-color: rgb(11, 11, 44);
+}
+#save-el{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: monospace;
+}
